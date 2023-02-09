@@ -2,12 +2,13 @@ import React from "react";
 import "./App.css";
 import brussels from "./images/brussels.jpg";
 import ImageGallery from "./ImageGallery";
+import Button from "./Button";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <button>Dark Theme</button>
+        <Button />
         <div class="container">
           <h1>Henri Cartier-Bresson</h1>
           <img class="brussels" src={brussels} alt="brussels" />
