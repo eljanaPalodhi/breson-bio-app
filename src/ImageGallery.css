@@ -1,0 +1,15 @@
+.image-gallery {
+  margin: 15px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.image-gallery img {
+  width: 100%;
+  border-radius: 1px black solid;
+  transition: all 150ms ease-in-out;
+}
+
+.image-gallery img:hover {
+  transform: scale(2);
+}
